@@ -1,0 +1,1 @@
+Similar to https://github.com/kzahel/managed-new-tab (see readme there)
