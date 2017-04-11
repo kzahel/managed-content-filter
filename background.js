@@ -5,9 +5,10 @@ var urls = [
 urls = ["<all_urls>"]
 
 var response = function(req) {
-  if (req.method != "GET")
+  if (req.method != "GET") {
     console.log('blocking',req)
     return { cancel: true };
+  }
 }
 
 var k = "OnlyGETDomains"
