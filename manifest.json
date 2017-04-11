@@ -1,0 +1,18 @@
+{
+  "name":"Managed Content Filter",
+  "version": "0.0.3",
+  "manifest_version": 2,
+  "background": {
+    "scripts": [
+      "background.js"
+    ]
+  },
+  "storage": {
+    "managed_schema": "schema.json"
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "type":"object",
+  "properties": {
+    "OnlyGETDomains": {
+      "type": "array",
+      "description": "Only allow GET requests on these domains",
+      "items": {
+        "type":"string"
+      }
+    }
+  }
+}

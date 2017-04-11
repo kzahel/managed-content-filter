@@ -1,0 +1,5 @@
+{
+  "OnlyGETDomains": {
+     "Value":["*://stackoverflow.com/*"]
+   }
+}
