@@ -1,5 +1,14 @@
 {
-  "OnlyGETDomains": {
-     "Value":["*://stackoverflow.com/*"]
-   }
+  "put_whitelist": [
+    "https://www.khanacademy.org/api"
+  ], 
+  "blacklist": "*://*/*", 
+  "whitelist": "*://*.tlmworks.org/*", 
+  "post_whitelist": [
+    "https://accounts.google.com/signin/challenge/", 
+    "https://accounts.google.com/ListAccounts", 
+    "https://www.googleapis.com/oauth2/v2", 
+    "https://appengine.google.com/_ah/conflogin", 
+    "https://www.khanacademy.org/api"
+  ]
 }

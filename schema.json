@@ -7,6 +7,20 @@
       "items": {
         "type":"string"
       }
+    },
+    "post_whitelist": {
+      "type": "array",
+      "description": "urls to allow POST requests",
+      "items": {
+        "type":"string"
+      }
+    },
+    "put_whitelist": {
+      "type": "array",
+      "description": "urls to allow PUT requests",
+      "items": { 
+       "type":"string"
+      }
     }
   }
 }
